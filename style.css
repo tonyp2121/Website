@@ -1,0 +1,261 @@
+/*My coding here is sloppy as fuck*/
+
+html
+{
+        background-color: #fff;
+        background:url(http://tonypallone.com/images/background.jpg);
+        /*Unsure about the background image, might get rid of it later since the fade isn't nearly as noticeble as it would be*/
+        background-repeat:repeat-x;
+        background-attachment:fixed;
+        background-size:  cover;
+        padding: 0;
+        margin: 0 auto;
+        color: #000;
+}
+body
+{
+    width: 900px;
+    /*I know I should've gone with 960, I believe you said that was the standard but ehh fuck it right now*/
+    margin: 0 auto;
+    text-align: center;
+    background-color:  #e7e7e7;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-box-shadow: 0px 0px 200px #000;
+	box-shadow: 0px 0px 200px #000;
+    -moz-box-shadow: 0px 0px 200px #000;
+}
+p
+{
+    text-align: left;
+}
+#content
+{
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 90px;
+    /*margin-top: 95px;*/ /*Might change this later*/
+}
+#image img
+{
+    float: right;
+    height: 250px;
+    width: 250px;
+    padding: 0;
+    margin: 0 auto;
+    -webkit-box-shadow: 20px 20px 30px #6d6d6d;
+	box-shadow: 20px 20px 30px #6d6d6d;
+    -moz-box-shadow: 20px 20px 30px #6d6d6d;
+}
+h1
+{
+    padding-top: 45px;
+    margin-top: 0px;
+    font-size: 30px;
+    font-family: 'Aldrich', sans-serif;
+}
+h2
+{
+    font-size: 50px;
+    font-family: 'Rokkitt', serif;
+    margin-bottom: 20px;
+}
+#header
+{
+    width: 100%;
+    
+}
+#paragraph ul
+{
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 0px;  
+    font-family: 'Rokkitt', serif;
+}
+#paragraph li
+{
+    font-size: 30px;
+    padding-bottom: 25px
+}
+
+#paragraph a
+{
+    text-decoration: none;
+    color: #b00000;
+    -o-transition:color .1s ease-out, background .2s ease-in;
+    -ms-transition: color .1s ease-out, background .2s ease-in;
+    -moz-transition: color.1s ease-out, background .2s ease-in;
+    transition:color .1s ease-out, background .2s ease-in;
+}
+#paragraph a:hover
+{
+    color: red;
+}
+
+
+/*Footer*/
+#footer
+{
+    padding-bottom: 8px;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-top: 20px;
+    text-align: center;
+}
+#footer p
+{
+    text-align: center;
+}
+#footer a
+{
+    text-decoration: none;
+    color: #000;
+    -o-transition:color .3s ease-out, background .2s ease-in;
+    -ms-transition: color .3s ease-out, background .2s ease-in;
+    -moz-transition: color.3s ease-out, background .2s ease-in;
+    transition:color .3s ease-out, background .2s ease-in;
+}
+#footer a:hover
+{
+    color: #f00;
+}
+#logo
+{
+    float: left;
+    width: 230px; 
+    height: 100px;
+    padding: 0;
+    margin: 0 auto;
+    padding-left: 5px;
+}
+#logo img
+{
+    width: 230px;
+    padding-top: 7px;
+    
+}
+/*Navigation*/
+#navigation
+{
+    text-decoration: none; 
+    font-size: 24px;
+    width: 900px;
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding-left: 0px;
+    font-family: 'Aldrich', sans-serif;
+}
+#navigation li
+{
+    display: inline;
+    vertical-align: middle;
+    float: left;
+}
+#navigation ul
+{
+    text-decoration: none;
+    list-style-type: none;
+}
+#navigation a
+{
+    text-decoration: none;
+    color:#fff;
+    background-color: #b00000 ;
+    display: block;
+    transition: .2s ease-out, background .2s ease-in;
+    width: 225px;
+    height: 22px;
+    /*might get rid of height later, currently I think it looks kinda cool*/
+}
+#navigation a:hover
+{
+    background-color: #7c0000;
+}
+
+/*Contacts images*/
+#twitter
+{
+    height: 250px;
+    width: 400px;
+    float: left;
+    font-family: 'Aldrich', sans-serif;
+}
+#twitter img
+{
+    height: 200px;
+    width: 200px;
+    transition: .6s;
+    -webkit-transition:.6s;
+}
+#twitter img:hover
+{
+    height: 210px;
+    width: 210px;
+}
+#facebook
+{
+    height: 250px;
+    width: 400px;
+    float: right;
+    font-family: 'Aldrich', sans-serif;
+}
+#facebook img
+{
+    height: 200px;
+    width: 200px;
+    transition: .6s;
+    -webkit-transition:.6s;
+}
+#facebook img:hover
+{
+    height: 210px;
+    width: 210px;
+}
+#steam
+{
+    height: 250px;
+    width:400px;
+    float: left;
+    font-family: 'Aldrich', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+#steam img
+{
+    height: 200px;
+    width: 200px;
+    transition: .6s;
+    -webkit-transition:.6s;
+}
+#steam img:hover
+{
+    height: 210px;
+    width: 210px;
+}
+#email
+{
+    height: 250px;
+    width: 400px;
+    float: right;
+    font-family: 'Aldrich', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+#email img
+{
+    height: 200px;
+    width: 200px;
+    transition: .6s;
+    -webkit-transition: .6s;
+}
+#email img:hover
+{
+    height: 210px;
+    width: 210px; 
+}
+#contact p
+{
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
