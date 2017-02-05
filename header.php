@@ -1,26 +1,68 @@
-<!DOCTYPE html>
+<!--
+
+__________████████_____██████
+_________█░░░░░░░░██_██░░░░░░█
+________█░░░░░░░░░░░█░░░░░░░░░█
+_______█░░░░░░░███░░░█░░░░░░░░░█
+_______█░░░░███░░░███░█░░░████░█
+______█░░░██░░░░░░░░███░██░░░░██
+_____█░░░░░░░░░░░░░░░░░█░░░░░░░░███
+____█░░░░░░░░░░░░░██████░░░░░████░░█
+____█░░░░░░░░░█████░░░████░░██░░██░░█
+___██░░░░░░░███░░░░░░░░░░█░░░░░░░░███
+__█░░░░░░░░░░░░░░█████████░░█████████
+_█░░░░░░░░░░█████_████___████_█████___█
+_█░░░░░░░░░░█______█_███__█_____███_█___█
+█░░░░░░░░░░░░█___████_████____██_██████
+░░░░░░░░░░░░░█████████░░░████████░░░█
+░░░░░░░░░░░░░░░░█░░░░░█░░░░░░░░░░░░█
+░░░░░░░░░░░░░░░░░░░░██░░░░█░░░░░░██
+░░░░░░░░░░░░░░░░░░██░░░░░░░███████
+░░░░░░░░░░░░░░░░██░░░░░░░░░░█░░░░░█
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+░░░░░░░░░░░█████████░░░░░░░░░░░░░░██
+░░░░░░░░░░█▒▒▒▒▒▒▒▒███████████████▒▒█
+░░░░░░░░░█▒▒███████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+░░░░░░░░░█▒▒▒▒▒▒▒▒▒█████████████████
+░░░░░░░░░░████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+░░░░░░░░░░░░░░░░░░██████████████████
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+██░░░░░░░░░░░░░░░░░░░░░░░░░░░██
+▓██░░░░░░░░░░░░░░░░░░░░░░░░██
+▓▓▓███░░░░░░░░░░░░░░░░░░░░█
+▓▓▓▓▓▓███░░░░░░░░░░░░░░░██
+▓▓▓▓▓▓▓▓▓███████████████▓▓█
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█
+
+-->
+
 <html>
-
 <head>
-    <title>Tony Pallone's site</title>
-    <link href="http://tonypallone.com/style.css" type="text/css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
-    <link href="http://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet" type="text/css">
-    <link href='http://tonypallone.com/favicon.ico' rel='icon' type='image/x-icon'/>
-</head>
+ <title>Tony Pallone's Site</title>
+ <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+ <link href="css/hover-min.css" rel="stylesheet">
+ <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Rosario:400,700' rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Raleway:800,400,100' rel='stylesheet' type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+ <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 
+
+</head>
 <body>
-    <div id="header">
-        <div id="logo">
-                <a href="http://tonypallone.com"><img src="http://thedesigniac.com/tony/images/logosmall.png" alt="Tony Pallone's Site"></a>
-        </div>
-        <div id="navigation">
-            <ul style= "padding-left: 0px">
-                <li><a href="http://tonypallone.com/about">About</a></li>
-                <li><a href="http://tonypallone.com/skills">Skills</a></li>
-                <li><a href="http://tonypallone.com/portfolio">Portfolio</a></li>
-                <li><a href="http://tonypallone.com/contact">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-            <h1>Welcome to my corner of the internet.</h1>
+<div id="wrapper">
+<div id="header">
+ <a href="http://tonypallone.com"><h1 style="margin-bottom: 0px;border-top-width: 30px;"> Tony Pallone</h1>
+<div id="navigation">
+<ul>
+	<a href="#"><li>Home</li></a>
+	<a href="#"><li>About</li></a>
+	<a href="https://dl.dropboxusercontent.com/u/75608025/Anthony%20Pallone%20Resume.pdf"><li>Résumé</li></a>
+	<a href="https://www.linkedin.com/in/anthony-pallone-9bb990109?trk=nav_responsive_tab_profile_pic"><li>LinkedIn</li></a>
+</ul>
+</div>
+</div>

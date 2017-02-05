@@ -1,261 +1,199 @@
-/*My coding here is sloppy as fuck*/
+body 
+{ 
+	text-align: center; 
+	margin:0;
+	font-size:270%;
+}
+#content 
+{ 
+// width: 850px; 
+float: center;
+text-align: center; 
+margin:0 auto;
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+}
 
-html
+#header a
 {
-        background-color: #fff;
-        background:url(http://tonypallone.com/images/background.jpg);
-        /*Unsure about the background image, might get rid of it later since the fade isn't nearly as noticeble as it would be*/
-        background-repeat:repeat-x;
-        background-attachment:fixed;
-        background-size:  cover;
-        padding: 0;
-        margin: 0 auto;
-        color: #000;
+	text-decoration:none;
+	color:#fff;
+	margin:0 auto;
 }
-body
+#header h1
 {
-    width: 900px;
-    /*I know I should've gone with 960, I believe you said that was the standard but ehh fuck it right now*/
-    margin: 0 auto;
-    text-align: center;
-    background-color:  #e7e7e7;
-    font-family: Helvetica, Arial, sans-serif;
-    -webkit-box-shadow: 0px 0px 200px #000;
-	box-shadow: 0px 0px 200px #000;
-    -moz-box-shadow: 0px 0px 200px #000;
-}
-p
-{
-    text-align: left;
-}
-#content
-{
-    margin-left: 45px;
-    margin-right: 45px;
-    margin-top: 90px;
-    /*margin-top: 95px;*/ /*Might change this later*/
-}
-#image img
-{
-    float: right;
-    height: 250px;
-    width: 250px;
-    padding: 0;
-    margin: 0 auto;
-    -webkit-box-shadow: 20px 20px 30px #6d6d6d;
-	box-shadow: 20px 20px 30px #6d6d6d;
-    -moz-box-shadow: 20px 20px 30px #6d6d6d;
-}
-h1
-{
-    padding-top: 45px;
-    margin-top: 0px;
-    font-size: 30px;
-    font-family: 'Aldrich', sans-serif;
-}
-h2
-{
-    font-size: 50px;
-    font-family: 'Rokkitt', serif;
-    margin-bottom: 20px;
+	padding-bottom:20px;
+	font-weight: normal;
 }
 #header
 {
-    width: 100%;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 41px;
+	margin:0 auto;
+	text-align:center;
+	background-color:#2B2B2B;
+	font-weight: Normal;
     
-}
-#paragraph ul
-{
-    list-style-type: none;
-    text-decoration: none;
-    padding-top: 10px;
-    padding-left: 0px;  
-    font-family: 'Rokkitt', serif;
-}
-#paragraph li
-{
-    font-size: 30px;
-    padding-bottom: 25px
-}
-
-#paragraph a
-{
-    text-decoration: none;
-    color: #b00000;
-    -o-transition:color .1s ease-out, background .2s ease-in;
-    -ms-transition: color .1s ease-out, background .2s ease-in;
-    -moz-transition: color.1s ease-out, background .2s ease-in;
-    transition:color .1s ease-out, background .2s ease-in;
-}
-#paragraph a:hover
-{
-    color: red;
-}
-
-
-/*Footer*/
-#footer
-{
-    padding-bottom: 8px;
-    font-family: Helvetica, Arial, sans-serif;
-    padding-top: 20px;
-    text-align: center;
-}
-#footer p
-{
-    text-align: center;
-}
-#footer a
-{
-    text-decoration: none;
-    color: #000;
-    -o-transition:color .3s ease-out, background .2s ease-in;
-    -ms-transition: color .3s ease-out, background .2s ease-in;
-    -moz-transition: color.3s ease-out, background .2s ease-in;
-    transition:color .3s ease-out, background .2s ease-in;
-}
-#footer a:hover
-{
-    color: #f00;
-}
-#logo
-{
-    float: left;
-    width: 230px; 
-    height: 100px;
-    padding: 0;
-    margin: 0 auto;
-    padding-left: 5px;
-}
-#logo img
-{
-    width: 230px;
-    padding-top: 7px;
-    
-}
-/*Navigation*/
-#navigation
-{
-    text-decoration: none; 
-    font-size: 24px;
-    width: 900px;
-    float: left;
-    margin: 0 auto;
-    margin-bottom: 15px;
-    padding-left: 0px;
-    font-family: 'Aldrich', sans-serif;
-}
-#navigation li
-{
-    display: inline;
-    vertical-align: middle;
-    float: left;
 }
 #navigation ul
 {
-    text-decoration: none;
-    list-style-type: none;
+	padding-left:0px;
+	margin:0 auto;
 }
-#navigation a
+#navigation
 {
-    text-decoration: none;
-    color:#fff;
-    background-color: #b00000 ;
-    display: block;
-    transition: .2s ease-out, background .2s ease-in;
-    width: 225px;
-    height: 22px;
-    /*might get rid of height later, currently I think it looks kinda cool*/
+	
+	background-color:#141414;
+        //box-shadow:0px 0px 20px #000;
+	height:75px;
 }
-#navigation a:hover
+#navigation li
 {
-    background-color: #7c0000;
+	display:inline-block;
+	text-decoration: none; 
+	font-family: 'Rosario', sans-serif;
+	font-size: 25px;
+	width:20%;
+	padding:0px;
+}
+#Main_Page_Intro h2
+{
+	font-family: 'Raleway';
+	font-weight: 100;
+	font-size: 60px;
+	text-align: center;
+	color:#3B3B3B;
+}
+#climbing
+{
+	background-color:#000;
+	box-shadow: 0px 0px 40px #000;
+	color:#fff;
+	height:450px;
+	float:center;
+	font-size:37px;
+}
+#climbing p
+{
+	max-width:800px;
+	padding-left:8%;
+	padding-top:2.5%;
+	text-align:left;
+}
+#climbing img
+{
+	height:100%;
+	float: right;
+}
+#UNLV
+{
+	height:450px;
+	//float:center;
+	padding-bottom:1%;
+	position: relative;
+}
+#UNLV img
+{
+	height:100%;
+	padding-left:0%;
+}
+#UNLV p
+{
+	float:right;
+	padding-top:135px;
+	line-height: 1.4;
+	font-family: 'Bree Serif', serif;
+	margin:0 auto;
+	margin-bottom:10px;
+	width:51%;
+	padding-right:5%;
+	font-size:.87em;
+}
+#UNLV_title
+{
+	color:#e60808;
+	width:51%;
+	float:right;
+	padding-right:5%;
+	padding-top:0;
+	padding-bottom:10%;	
+	font-size:1.5em;
+	font-family: 'Grand Hotel', cursive;
+	position: absolute; 
+	right: 0; 
+	bottom: 0;
+}
+.title { font-size: 11pt; font-family: verdana; font-weight: bold; }
+
+#post 
+{
+display:inline-block;
+position: relative;
+text-align: left;
+width: 50%;
+
 }
 
-/*Contacts images*/
-#twitter
+#post img
 {
-    height: 250px;
-    width: 400px;
-    float: left;
-    font-family: 'Aldrich', sans-serif;
+	height:auto;
+	height: auto;
+	width: 80%;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+
 }
-#twitter img
+
+#post p
 {
-    height: 200px;
-    width: 200px;
-    transition: .6s;
-    -webkit-transition:.6s;
+	position: relative;
+	font-size: .7em;
+	
 }
-#twitter img:hover
+
+#post h1
 {
-    height: 210px;
-    width: 210px;
+	font-weight: 700;
+	font-size: inherit;
+	padding-bottom:0;
+	margin: 0 auto;
+	
 }
-#facebook
+
+#underline img
 {
-    height: 250px;
-    width: 400px;
-    float: right;
-    font-family: 'Aldrich', sans-serif;
+height: auto;
+width: 100%;
 }
-#facebook img
+
+#footer
 {
-    height: 200px;
-    width: 200px;
-    transition: .6s;
-    -webkit-transition:.6s;
+	font-size: .4em;
+	font-family: 'Bree Serif', serif;
+	background-color: #141414;
+	margin: 0 auto;
+	color: #fff;
+	padding-top: .5%;
+	padding-bottom: .5%;
 }
-#facebook img:hover
+
+#footer p
 {
-    height: 210px;
-    width: 210px;
+	width: 80%;
+	float: center;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	margin: 0 auto;
 }
-#steam
+
+#footer a
 {
-    height: 250px;
-    width:400px;
-    float: left;
-    font-family: 'Aldrich', sans-serif;
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-#steam img
-{
-    height: 200px;
-    width: 200px;
-    transition: .6s;
-    -webkit-transition:.6s;
-}
-#steam img:hover
-{
-    height: 210px;
-    width: 210px;
-}
-#email
-{
-    height: 250px;
-    width: 400px;
-    float: right;
-    font-family: 'Aldrich', sans-serif;
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-#email img
-{
-    height: 200px;
-    width: 200px;
-    transition: .6s;
-    -webkit-transition: .6s;
-}
-#email img:hover
-{
-    height: 210px;
-    width: 210px; 
-}
-#contact p
-{
-    font-size: 25px;
-    margin-bottom: 15px;
-    text-align: center;
+	color: #e10000;
+	text-decoration:none;
 }
