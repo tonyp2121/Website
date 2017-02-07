@@ -40,22 +40,75 @@ font-weight: 400;
 	background-color:#141414;
   box-shadow: 0 10px 20px -2px gray;
 	height:75px;
+	margin:0 auto;
+
 }
 #navigation li
 {
 	display:inline-block;
+	background-color:#141414;
 	text-decoration: none;
 	font-family: 'Rosario', sans-serif;
 	font-size: 25px;
 	width:20%;
 	padding:0px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+
+	margin:0 auto;
+	margin-left: 5px;
+	margin-right: 5px;
 }
+
+#navigation li:hover
+{
+	background-color:#353535;
+	transition: .5s;
+}
+
+#navigation li.Linkedin:hover
+{
+	background-color: #0077B5;
+}
+
+#navigation li.Resume:hover
+{
+	background-color: #a00000;
+}
+
+#navigation li.Github:hover
+{
+	background-color: #4b9929;
+}
+
 #navigation ul
 {
 	padding-left:0px;
   margin:0 auto;
 	height: 75px;
+	margin:0 auto;
 }
+#navigation a
+{
+
+		margin:0 auto;
+		margin-left: 0;
+		margin-right: 0;
+}
+
+
+
+/*
+#navigation li.Resume
+{
+	transition: all .5s ease;
+}
+
+#navigation li.Resume:hover
+{
+	background-color: #b20101;
+}
+*/
 #Main_Page_Intro h2
 {
 	font-family: 'Raleway';
@@ -202,17 +255,5 @@ width: 100%;
 {
 	color: #990000;
 	transition:.5s;
-
-}
-
-a.Linkedin
-{
-	transition: all .5s ease;
-}
-
-a.Linkedin:hover
-{
-	background-color: #0077B5;
-	transition: .5s;
 
 }
