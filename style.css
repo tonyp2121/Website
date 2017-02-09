@@ -1,3 +1,8 @@
+/*
+		Anthony Pallone
+		CSS for tonypallone.com
+*/
+
 body
 {
 	text-align: center;
@@ -38,24 +43,73 @@ font-weight: 400;
 {
 
 	background-color:#141414;
-  box-shadow: 0 10px 20px -2px gray;
 	height:75px;
+	margin:0 auto;
+
 }
 #navigation li
 {
 	display:inline-block;
+	background-color:#141414;
 	text-decoration: none;
 	font-family: 'Rosario', sans-serif;
 	font-size: 25px;
 	width:20%;
 	padding:0px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+
+	margin:0 auto;
+	margin-left: 5px;
+	margin-right: 5px;
 }
+
+#navigation li:hover
+{
+	background-color:#353535;
+	transition: .5s;
+}
+
+#navigation li.Linkedin:hover
+{
+	background-color: #0077B5;
+}
+
+#navigation li.Resume:hover
+{
+	background-color: #a00000;
+}
+
+#navigation li.Github:hover
+{
+	background-color: #4b9929;
+}
+
+#navigation li.About:hover
+{
+	background-color: #d65500;
+}
+
 #navigation ul
 {
 	padding-left:0px;
   margin:0 auto;
 	height: 75px;
+	margin:0 auto;
 }
+#navigation a
+{
+
+		margin:0 auto;
+		margin-left: 0;
+		margin-right: 0;
+}
+
+
+/*
+
+		This was specifically for a main page I dont have anymore keeping it in case I ever want to bring it back
+
 #Main_Page_Intro h2
 {
 	font-family: 'Raleway';
@@ -123,6 +177,9 @@ font-weight: 400;
 	right: 0;
 	bottom: 0;
 }
+
+*/
+
 .title { font-size: 11pt; font-family: verdana; font-weight: bold; }
 
 #post
@@ -130,7 +187,9 @@ font-weight: 400;
 display:inline-block;
 position: relative;
 text-align: left;
-width: 50%;
+min-width: 65%;
+max-width: 70%;
+
 
 }
 
@@ -171,13 +230,15 @@ width: 100%;
 
 #footer
 {
-	font-size: .4em;
+	font-size: 15px;
 	font-family: 'Bree Serif', serif;
 	background-color: #141414;
 	margin: 0 auto;
 	color: #fff;
 	padding-top: .5%;
 	padding-bottom: .5%;
+
+	transition:.5s;
 }
 
 #footer p
@@ -190,6 +251,8 @@ width: 100%;
 	margin-right: auto;
 	color: #fff;
 	margin: 0 auto;
+
+		transition:.5s;
 }
 
 #footer a
@@ -205,14 +268,7 @@ width: 100%;
 
 }
 
-a.Linkedin
+#post h1.AboutPage
 {
-	transition: all .5s ease;
-}
-
-a.Linkedin:hover
-{
-	background-color: #0077B5;
-	transition: .5s;
-
+		
 }
