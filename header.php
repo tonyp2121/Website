@@ -43,9 +43,9 @@
 </head>
 <body>
 <div id="wrapper">
-<div id="header">
+<div id="header" class = "unselectable">
  <a href="http://tonypallone.com"><h1 style="margin-bottom: 0px;border-top-width: 30px;"> Tony Pallone</h1>
-<div id="navigation">
+<div id="navigation" class = "unselectable">
 <ul>
 	<a href="#"><li class="About hvr-grow-shadow">About</li></a>
 	<a href="https://github.com/tonyp2121/"><li class="Github hvr-grow-shadow">Github</li></a>
