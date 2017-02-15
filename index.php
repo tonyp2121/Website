@@ -6,7 +6,7 @@
 <ul>
 <h1 font-weight="700"><?php echo get_the_title( $post_id ); ?></h1>
 <div id ="underline">
-<img src="https://i.imgur.com/tEpk4Eq.jpg" />
+<img src="http://tonypallone.com/wp-content/uploads/2017/02/tEpk4Eq-1024x6.jpg" alt="Underline unselectable" />
 </div>
 <p><?php the_content(__('(more...)')); ?></p>
 </ul>
