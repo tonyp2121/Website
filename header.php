@@ -32,6 +32,7 @@
  <title>Tony Pallone's Site</title>
  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
  <link href="css/hover-min.css" rel="stylesheet">
+ <link href="https://necolas.github.io/normalize.css/5.0.0/normalize.css" rel="stylesheet">
  <link href="https://dl.dropboxusercontent.com/u/75608025/hover-min.css" rel="stylesheet">
  <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
  <link href='http://fonts.googleapis.com/css?family=Rosario:400,700' rel='stylesheet' type='text/css'>
