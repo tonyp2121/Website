@@ -9,6 +9,10 @@ body
 	margin:0;
 	font-size:270%;
 }
+
+a{
+	text-decoration: none;
+}
 #content
 {
 float: center;
@@ -231,7 +235,7 @@ max-width: 65%;
 {
 	position: relative;
 	font-size: .5em;
-	text-indent: 50px;
+	/*text-indent: 50px;*/
 
 }
 
@@ -243,6 +247,18 @@ max-width: 65%;
 	margin: 0 auto;
 	text-transform: capitalize;
 
+}
+
+#post a
+{
+	color: #e10000;
+}
+
+#post a:hover
+{
+	color: #990000;
+	transition:.5s;
+	-webkit-transition: .5s;
 }
 
 #underline img
